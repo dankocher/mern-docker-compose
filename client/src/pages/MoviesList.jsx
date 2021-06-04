@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import ReactTable from 'react-table'
+import ReactTable from "react-table-6"
 import api from '../api'
 
 import styled from 'styled-components'
 
-import 'react-table/react-table.css'
+import "react-table-6/react-table.css"
 
 const Wrapper = styled.div`
     padding: 0 40px 40px 40px;
@@ -13,11 +13,13 @@ const Wrapper = styled.div`
 const Update = styled.div`
     color: #ef9b0f;
     cursor: pointer;
+    text-align: center;
 `
 
 const Delete = styled.div`
     color: #ff0000;
     cursor: pointer;
+    text-align: center;
 `
 
 class UpdateMovie extends Component {
